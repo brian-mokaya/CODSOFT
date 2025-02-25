@@ -1,6 +1,6 @@
 package GuessingGame;
 
-
+import java.util.Scanner;
 public class GuessingGame {
 
     public void startGame(){
