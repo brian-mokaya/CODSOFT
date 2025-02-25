@@ -1,7 +1,7 @@
 package GuessingGame;
 public class GuessingGame {
 
-    public startGame(){
+    public void startGame(){
     //generate a random number between 1 and 100
     int randomNumber = (int)(Math.random() * 100) + 1;
 
@@ -23,7 +23,7 @@ public class GuessingGame {
             System.out.println("Congratulations! You guessed correctly in " + attempts + " attempts!");
             GuessedCorrect = true;
     }
-        else if (guess<randomNu(mber){
+        else if (guess<randomNumber){
             system.out.println("The number is high than your guess. Try again.");
         }
         else {
